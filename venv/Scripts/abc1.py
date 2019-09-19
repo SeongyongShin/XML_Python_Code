@@ -4,10 +4,13 @@ import lxml.etree as etree
 import xml.etree.ElementTree as ele
 from tkinter import *
 import tkinter.ttk
-from Scripts import myFile
+import myFile
 from xml.etree.ElementTree import Element, dump
 from tkinter import messagebox
 from math import*
+import tkinterhtml
+from tkinterhtml import HtmlFrame
+from tkinterhtml import TkinterHtml
 xmlString = ""
 msg = ""
 def change(): # 텍스트에 입력된 것을 문자열로 바꾸기
@@ -64,7 +67,9 @@ def setWindow():
     window.geometry("800x800")
     window.resizable(True, True)
     frame1.pack(side="left", fill="both", expand=False)
-    frame2.pack(side="right", fill="both", expand=True)
+    frame2.pack(side="left", fill="both", expand=True)
+    frame3.pack(side="left", fill="both", expand=True)
+    htmlviewr.pack(side = "top",fill = "y")
     submit.pack(side = "top",fill = "x")
     psubmit.pack(side = "top", fill = "x")
     result.pack(side = "top", fill = "x")
@@ -96,9 +101,6 @@ def btn_pressed(value):
             change()
         except:
             check = error_xml(check)
-            # open output file for writing (truncated binary)
-
-
     elif(value=='3'):
         entry.delete(0.0,tkinter.END)
 
@@ -114,20 +116,28 @@ def make_substring():
     root.append(elem)
     indent(elem, 0)
     tree = ele.ElementTree(elem)
-    tree.write("xslt/hh.xml",encoding="utf-8")
+    tree.write("xslt\\hh.xml",encoding="utf-8")
     result["text"] = "정상"
     result["bg"] = "green"
-    tree = ele.parse("xslt/hh.xml")
+    tree = ele.parse("xslt\\hh.xml")
     entry.delete(0.0, tkinter.END)
     parsedXml = etree.parse("xslt/hh.xml")
     str2 = etree.tostring(parsedXml, pretty_print = True, encoding='utf-8').decode()
-    f = open("xslt/abc.xml",'w',encoding='utf8')
+    f = open("xslt\\abc.xhtml",'w',encoding='utf8')
     s = '<?xml version="1.0" encoding="UTF-8"?>\n<?xml-stylesheet type="text/xsl" href="'+myFile.findXslt(listbox.get(listbox.curselection()))+'.xslt"?>\n' + xmlString
 
     f.write(s)
     f.close()
     entry.insert(0.0, str2)
+    viewTheHtml()
 
+def viewTheHtml():
+    dom = etree.parse("xslt\\hh.xml")
+    xslt = etree.parse("xslt\\"+myFile.findXslt(listbox.get(listbox.curselection()))+".xslt")
+    transform = etree.XSLT(xslt)
+    newdom = transform(dom)
+    str1 = etree.tostring(newdom, pretty_print=True)
+    htmlviewr.set_content(str(str1).replace("\\n",""))
 def indent(elem, level=0):
     i = "\n" + level*"  "
     if len(elem):
@@ -158,11 +168,13 @@ window.geometry("240x60")
 window.resizable(False,False)
 frame1=tkinter.Frame(window, relief="solid", bd=2)
 frame2=tkinter.Frame(window, relief="solid", bd=2)
+frame3=tkinter.Frame(window, relief="solid", bd=2)
+htmlviewr = HtmlFrame(frame3, horizontal_scrollbar="auto")
 submit = tkinter.Button(frame1,width=30,heigh=5,text="결과 제출",command=lambda :btn_pressed('1'))
 psubmit = tkinter.Button(frame1, width=30, heigh=5, text="붙여널고 결과 제출\n(AutoPaste)", command=lambda: btn_pressed('2'))
 result = tkinter.Label(frame1,width=30, heigh=5,text="여기에\n결과가\n표시됩니다",relief="solid", bd = 3,bg="Yellow")
 clear = tkinter.Button(frame1,width=30,heigh=5,text="초기화",command=lambda :btn_pressed('3'))
-entry = tkinter.Text(frame2,heigh=100)
+entry = tkinter.Text(frame2,height=100)
 listbox = tkinter.Listbox(frame1, selectmode='extended', height=10)
 listbox=tkinter.Listbox(frame1,width=30,height=25,font=('times',13))
 i=0

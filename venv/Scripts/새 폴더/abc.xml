@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../xslt/xslt_mw24_jibangse.xslt"?>
+<지방세납세증명서발급>
+  <COMMON-INFO>
+    <DOCUMENT-INFO>
+      <DOCUMENT-NAME>지방세 납세증명</DOCUMENT-NAME>
+      <DOCUMENT-CODE>1310000005601</DOCUMENT-CODE>
+      <DOCUMENT-NUMBER>1568-7720-7572-7651</DOCUMENT-NUMBER>
+      <RECEIPT-INFO>
+        <RECEIPT-WINDOW CODE="13">G4C</RECEIPT-WINDOW>
+        <RECEIPT-DATE>
+          <YEAR>2019</YEAR>
+          <MONTH>09</MONTH>
+          <DAY>18</DAY>
+          <TIME>11:01:06</TIME>
+        </RECEIPT-DATE>
+        <RECEIPT-NUMBER>20190918210534690011310000005601</RECEIPT-NUMBER>
+        <RECEIPT-STATE CODE=""/>
+        <RECEIPT-FAIL CODE=""/>
+      </RECEIPT-INFO>
+    </DOCUMENT-INFO>
+    <TRANSMISSION-RECEPTION>
+      <ISSUE-ORG>
+        <OFFICE CODE="3780000">경기도 성남시 분당구 운중동</OFFICE>
+        <DEPARTMENT CODE="3810026">경기도 성남시 분당구 운중동</DEPARTMENT>
+        <CHARGE CODE="3810026">운중동</CHARGE>
+        <TELEPHONE>
+          <FIRST/>
+          <SECOND/>
+          <THIRD/>
+        </TELEPHONE>
+        <CELL-PHONE>
+          <FIRST/>
+          <SECOND/>
+          <THIRD/>
+        </CELL-PHONE>
+        <E-MAIL/>
+        <PRESIDENT/>
+      </ISSUE-ORG>
+      <DEMAND-ORG>
+        <OFFICE CODE=""/>
+        <DEPARTMENT CODE=""/>
+        <CHARGE CODE=""/>
+        <TELEPHONE>
+          <FIRST/>
+          <SECOND/>
+          <THIRD/>
+        </TELEPHONE>
+        <CELL-PHONE>
+          <FIRST/>
+          <SECOND/>
+          <THIRD/>
+        </CELL-PHONE>
+        <E-MAIL/>
+        <PRESIDENT/>
+      </DEMAND-ORG>
+      <APPLICATION TYPE="INDIVIDUAL">
+        <INDIVIDUAL>
+          <NAME>조희진</NAME>
+          <IDENTITY-NUMBER SYSNO="">
+            <FIRST>910902</FIRST>
+            <SECOND>2267611</SECOND>
+          </IDENTITY-NUMBER>
+          <CONTACK-INFO>
+            <APPLYADDR TYPE="1">
+              <ADDRESS-INFO>
+                <ZIPCODE>
+                  <FIRST>13466</FIRST>
+                  <SECOND/>
+                </ZIPCODE>
+                <AREA-INFO>
+                  <AREA-CODE>411353180046</AREA-CODE>
+                  <AREA-NAME/>
+                </AREA-INFO>
+                <ADD-DETAIL>
+                  <SAN CODE="3"/>
+                  <BUNGI>118</BUNGI>
+                  <HO>0</HO>
+                  <TONG>0</TONG>
+                  <BAN>경기도 성남시 분당구 운중로</BAN>
+                </ADD-DETAIL>
+                <SPECIAL-LOCATION>
+                  <SPE-LOC-NAME/>
+                  <SPE-LOC-DONG/>
+                  <SPE-LOC-HO/>
+                </SPECIAL-LOCATION>
+              </ADDRESS-INFO>
+            </APPLYADDR>
+            <TELEPHONE>
+              <FIRST/>
+              <SECOND/>
+              <THIRD/>
+            </TELEPHONE>
+            <CELL-PHONE>
+              <FIRST/>
+              <SECOND/>
+              <THIRD/>
+            </CELL-PHONE>
+            <E-MAIL/>
+          </CONTACK-INFO>
+        </INDIVIDUAL>
+      </APPLICATION>
+      <RECEIVE TYPE="INDIVIDUAL">
+        <RECEIVE-TYPE CODE="20">온라인발급(본인출력)</RECEIVE-TYPE>
+        <RECEIVE-ORGANIZATION CODE=""/>
+        <RECEIVE-ADDR>
+          <ADDRESS-INFO>
+            <ZIPCODE>
+              <FIRST/>
+              <SECOND/>
+            </ZIPCODE>
+            <AREA-INFO>
+              <AREA-CODE/>
+              <AREA-NAME/>
+            </AREA-INFO>
+            <ADD-DETAIL>
+              <SAN CODE=""/>
+              <BUNGI/>
+              <HO/>
+              <TONG/>
+              <BAN/>
+            </ADD-DETAIL>
+            <SPECIAL-LOCATION>
+              <SPE-LOC-NAME/>
+              <SPE-LOC-DONG/>
+              <SPE-LOC-HO/>
+            </SPECIAL-LOCATION>
+          </ADDRESS-INFO>
+        </RECEIVE-ADDR>
+        <RECEIVE-EMAIL/>
+      </RECEIVE>
+    </TRANSMISSION-RECEPTION>
+    <APPENDIX-GROUP/>
+    <REFERENCE-PERIOD/>
+    <PRESERVATION-INFO TYPE="01">9109022267611</PRESERVATION-INFO>
+    <MODIFY-DOCU/>
+  </COMMON-INFO>
+  <SIGUNGUCOMMON>
+    <시군구민원접수번호/>
+    <시군구접수일자>
+      <년/>
+      <월/>
+      <일/>
+    </시군구접수일자>
+    <시군구접수시간/>
+    <시군구접수구분>13</시군구접수구분>
+    <시군구접수구분명>G4C</시군구접수구분명>
+    <시군구접수사용자아이디/>
+    <시군구민원구분/>
+    <시군구민원구분명/>
+    <시군구처리예정일자>
+      <년/>
+      <월/>
+      <일/>
+    </시군구처리예정일자>
+    <시군구처리예정시간/>
+    <시군구처리예정일수/>
+    <시군구주처리부서코드/>
+    <시군구신청인구분>01</시군구신청인구분>
+    <시군구신청인구분명>개인</시군구신청인구분명>
+    <시군구신청인주소구분>1</시군구신청인주소구분>
+    <시군구신청인주소구분명>주민등록지</시군구신청인주소구분명>
+    <시군구신청민원인>
+      <구분 코드="01">개인</구분>
+      <성명>조희진</성명>
+      <주민등록번호 주민일련번호="000">
+        <앞번호>910902</앞번호>
+        <뒷번호>2267611</뒷번호>
+      </주민등록번호>
+      <주소>
+        <주소정보>
+          <구분 코드="1">주민등록지</구분>
+          <우편번호>
+            <앞번호>13466</앞번호>
+            <뒷번호/>
+          </우편번호>
+          <지역정보>
+            <지역코드>411353180046</지역코드>
+            <지역명/>
+          </지역정보>
+          <상세주소>
+            <산 코드="3"/>
+            <번지>118</번지>
+            <호>0</호>
+            <통>0</통>
+            <반>경기도 성남시 분당구 운중로</반>
+          </상세주소>
+          <특수지주소>
+            <특수지명/>
+            <특수지동/>
+            <특수지호/>
+          </특수지주소>
+        </주소정보>
+      </주소>
+      <전화번호>
+        <앞번호/>
+        <중간번호/>
+        <뒷번호/>
+      </전화번호>
+      <명칭/>
+      <사업자등록번호>
+        <앞번호/>
+        <중간번호/>
+        <뒷번호/>
+      </사업자등록번호>
+      <법인번호>
+        <앞번호/>
+        <뒷번호/>
+      </법인번호>
+    </시군구신청민원인>
+    <시군구신청건수>1</시군구신청건수>
+    <시군구수수료수납구분/>
+    <시군구수수료수납구분명/>
+    <시군구수납수수료/>
+    <시군구처리금액/>
+    <시군구민원진행구분/>
+    <시군구민원진행구분명/>
+    <시군구토요일전일근무여부/>
+    <시군구신청인암호/>
+    <시군구처리구분/>
+    <시군구처리구분명/>
+    <시군구우송료/>
+    <시군구환급은행/>
+    <시군구환급은행명/>
+    <시군구환급은행계좌번호/>
+    <시군구환급급은행예금주명/>
+    <시군구대표자주민등록번호>
+      <앞번호/>
+      <뒷번호/>
+    </시군구대표자주민등록번호>
+    <시군구대표자주민일련번호/>
+    <시군구처리일자>
+      <년/>
+      <월/>
+      <일/>
+    </시군구처리일자>
+    <시군구처리시간/>
+    <시군구처리부서/>
+    <시군구처리부서명/>
+    <시군구처리담당자/>
+    <시군구처리담당자명/>
+    <시군구업무시스템로긴아이디/>
+  </SIGUNGUCOMMON>
+  <OUT-지방세납세증명서발급>
+    <발급번호>136123</발급번호>
+    <발급일>201909181101</발급일>
+    <신청인명/>
+    <납세자>
+      <상호/>
+      <사업자등록번호>
+        <앞번호/>
+        <중간번호/>
+        <뒷번호/>
+      </사업자등록번호>
+      <성명>조희진</성명>
+      <주민등록번호 주민일련번호="">
+        <앞번호>910902</앞번호>
+        <뒷번호>*******</뒷번호>
+      </주민등록번호>
+      <사업의종류/>
+      <전화번호>
+        <앞번호>1</앞번호>
+        <중간번호>3692</중간번호>
+        <뒷번호>8334</뒷번호>
+      </전화번호>
+      <주소지>경기도 성남시 분당구 운중로 118</주소지>
+      <현사업장/>
+    </납세자>
+    <사용목적 코드="99">
+      <대금수령/>
+      <해외이주>
+        <해외이주허가번호/>
+        <해외이주허가년월일>
+          <해외이주허가년/>
+          <해외이주허가월/>
+          <해외이주허가일/>
+        </해외이주허가년월일>
+      </해외이주>
+      <부동산신탁등기/>
+      <그밖의목적>금융기관 제출용</그밖의목적>
+    </사용목적>
+    <내역건수>0</내역건수>
+    <세액합계/>
+    <가산금합계/>
+    <유효기간>
+      <유효년>2019</유효년>
+      <유효월>10</유효월>
+      <유효일>18</유효일>
+      <근거사유>지방세징수법 시행령 제 7조(납세증명서의 유효기간)</근거사유>
+    </유효기간>
+    <발급기관장>
+      <국문명>경기도 성남시분당구청장</국문명>
+      <영문명>Chief of  Bundang District</영문명>
+    </발급기관장>
+    <문의처>
+      <발급부서/>
+      <발급담당자/>
+      <문의전화/>
+    </문의처>
+  </OUT-지방세납세증명서발급>
+</지방세납세증명서발급>
+
